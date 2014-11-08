@@ -1,0 +1,34 @@
+/*
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS file within this directory can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the top of the
+* compiled file, but it's generally better to create a new file per style scope.
+*
+
+*= require_self
+
+*= require css/bootstrap.min.css
+*= require css/sb-admin2.css
+
+
+
+* MetisMenu CSS
+*= require css/plugins/metisMenu/metisMenu.min.css
+
+*Timeline CSS
+*= require css/plugins/timeline.css
+
+*Custom CSS
+*= require css/sb-admin-2.css
+
+Morris Charts CSS
+*= require css/plugins/morris.css
+
+Custom Fonts
+*= require font-awesome-4.2.0/css/font-awesome.min.css
+*/
+
+
