@@ -15,3 +15,15 @@ stacktrace.log
 /web-app/WEB-INF/classes
 /.link_to_grails_plugins/
 /target-eclipse/
+/web-app
+/.classpath
+/.project
+/.settings
+*.log
+/*.zip
+/target
+/.idea
+*.iml
+*.iws
+.DS_Store
+/log

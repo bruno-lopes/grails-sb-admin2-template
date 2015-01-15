@@ -11,6 +11,8 @@
 //= require js/plugins/metisMenu/metisMenu.min
 // Custom Theme JavaScript
 //= require js/sb-admin-2
+//= require js/plugins/dataTables/jquery.dataTables
+//= require js/plugins/dataTables/dataTables.bootstrap
 //= require_self
 
 

@@ -16,9 +16,10 @@ class UrlMappings {
         "/login.html"(view:"/testes/login")
         "/morris.html"(view:"/testes/morris")
         "/notifications.html"(view:"/testes/notifications")
-        "/panel-wells.html"(view:"/testes/panels-wells")
+        "/panels-wells.html"(view:"/testes/panels-wells")
         "/tables.html"(view:"/testes/tables")
         "/typography.html"(view:"/testes/typography")
+        "/teste.html"(view:"/testes/teste")
         "500"(view:'/error')
 	}
 }
