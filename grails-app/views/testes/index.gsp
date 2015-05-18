@@ -627,9 +627,11 @@
 </div>
 <!-- /.col-lg-4 -->
 </div>
-<!-- /.row -->
+%{--<!-- /.row -->--}%
+<content tag="include.bottom">
 <asset:javascript src="morris"/>
 <asset:javascript src="flot"/>
+</content>
 </body>
 
 </html>
