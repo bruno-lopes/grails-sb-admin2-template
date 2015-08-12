@@ -60,24 +60,20 @@ sbAdmin2.status = [
 ]
 sbAdmin2.menus = [
         [
-                'id'        : 'dashboard',
-                'title'     : 'Dashboard',
-                'icon'      : 'fa-dashboard',
-                'controller': 'teste',
-                'action'    : 'teste1',
-                'submenus'  : [
+                'id'      : 'dashboard',
+                'title'   : 'Menu Aninhado',
+                'icon'    : 'fa-dashboard',
+                'submenus': [
                         [
-                                'id'        : 'dashboard1',
-                                'title'     : 'Dashboard2',
-                                'icon'      : 'fa-dashboard',
-                                'controller': 'teste2',
-                                'action'    : 'teste12',
-                                'submenus'  : [
+                                'id'      : 'dashboard1',
+                                'title'   : 'Exemplo de Menu Ainhado com 1 nível',
+                                'icon'    : 'fa-dashboard',
+                                'submenus': [
                                         [
                                                 'id'        : 'dashboard1',
-                                                'title'     : 'Dashboard2',
+                                                'title'     : 'Exemplo de Menu Ainhado com 2 níveis',
                                                 'icon'      : 'fa-dashboard',
-                                                'controller': 'teste2',
+                                                'controller': 'blank',
 //                                                'action'    : 'teste12'
                                         ]
                                 ]
@@ -85,4 +81,71 @@ sbAdmin2.menus = [
                 ]
 
         ],
+        [
+                'id'        : 'buttons',
+                'title'     : 'Buttons',
+                'icon'      : 'fa-file-archive-o',
+                'controller': 'buttons',
+        ],
+        [
+                'id'        : 'flot',
+                'title'     : 'Flot',
+                'icon'      : 'fa-file-archive-o',
+                'controller': 'flot',
+        ]
+        ,
+        [
+                'id'        : 'forms',
+                'title'     : 'Forms',
+                'icon'      : 'fa-file-archive-o',
+                'controller': 'forms',
+        ]
+        ,
+        [
+                'id'        : 'grid',
+                'title'     : 'Grid',
+                'icon'      : 'fa-file-archive-o',
+                'controller': 'grid',
+        ]
+        ,
+        [
+                'id'        : 'login',
+                'title'     : 'Login',
+                'icon'      : 'fa-file-archive-o',
+                'controller': 'login',
+        ]
+        ,
+        [
+                'id'        : 'morris',
+                'title'     : 'Morris',
+                'icon'      : 'fa-file-archive-o',
+                'controller': 'morris',
+        ]
+        ,
+        [
+                'id'        : 'notifications',
+                'title'     : 'Notifications',
+                'icon'      : 'fa-file-archive-o',
+                'controller': 'notifications',
+        ]
+        ,
+        [
+                'id'        : 'panels-wells',
+                'title'     : 'Panels Wells',
+                'icon'      : 'fa-file-archive-o',
+                'controller': 'panels-wells',
+        ],
+        [
+                'id'        : 'tables',
+                'title'     : 'Tables',
+                'icon'      : 'fa-file-archive-o',
+                'controller': 'tables',
+        ],
+        [
+                'id'        : 'typography',
+                'title'     : 'Typography',
+                'icon'      : 'fa-file-archive-o',
+                'controller': 'typography',
+        ],
+
 ]
